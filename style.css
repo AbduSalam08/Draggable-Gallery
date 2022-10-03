@@ -9,7 +9,7 @@ html,
 body {
   background-color: #eff5ff;
   overflow: hidden;
-  cursor: grab !important;
+  cursor: url("cursor.png"),grab !important;
 }
 .title {
   position: fixed;
@@ -29,7 +29,6 @@ body {
   letter-spacing: 6px;
 }
 .container {
-  /* cursor: url("cursor.png"), auto !important; */
   position: absolute;
   width: 200%;
   height: 200vh;
@@ -52,83 +51,83 @@ body {
   margin: 40px;
   border-radius: 4px;
   background-color: gray;
-    filter: grayscale(1);
+  filter: grayscale(1);
   user-select: none;
   -webkit-user-drag: none;
 }
 .projectCard:hover {
-    filter: grayscale(0);
+  filter: grayscale(0);
   transform: scale(1.05);
 }
 .pc-1 {
   background-image: url("https://wallpapers.com/images/hd/loki-in-yellow-nsbhnrqpnhcatjhz.webp");
   background-size: cover;
-    background-position: 50% 50%;
+  background-position: 50% 50%;
   background-repeat: no-repeat;
 }
 .pc-2 {
   background-image: url("https://wallpapers.com/images/hd/purple-full-moon-moon-knight-8o8vz0agp0n8lzhq.webp");
   background-size: cover;
-    background-position: 50% 50%;
+  background-position: 50% 50%;
   background-repeat: no-repeat;
 }
 .pc-3 {
   background-image: url("https://wallpapers.com/images/hd/captain-america-avenger-on-dark-sky-ceaxp70yme17vexw.webp");
   background-size: cover;
-    background-position: 50% 50%;
+  background-position: 50% 50%;
   background-repeat: no-repeat;
 }
 .pc-4 {
   background-image: url("https://wallpapers.com/images/hd/thor-battle-armor-hduiuwcgb91saehk.webp");
   background-size: cover;
-    background-position: 50% 50%;
+  background-position: 50% 50%;
   background-repeat: no-repeat;
 }
 .pc-5 {
   background-image: url("https://wallpapers.com/images/hd/captain-america-rain-lightning-v7ibbhfdujf5ayeq.webp ");
   background-size: cover;
-    background-position: 50% 50%;
+  background-position: 50% 50%;
   background-repeat: no-repeat;
 }
 .pc-6 {
   background-image: url("https://images.pexels.com/photos/312839/pexels-photo-312839.jpeg?auto=compress&cs=tinysrgb&w=600");
   background-size: cover;
-    background-position: 50% 50%;
+  background-position: 50% 50%;
   background-repeat: no-repeat;
 }
 .pc-7 {
   background-image: url("https://images.unsplash.com/photo-1635805737707-575885ab0820?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8bWFydmVsfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60");
   background-size: cover;
-    background-position: 50% 50%;
+  background-position: 50% 50%;
   background-repeat: no-repeat;
 }
 .pc-8 {
   background-image: url("https://wallpapers.com/images/hd/thanos-blazing-eyes-lbmkvi91kygciqs9.webp");
   background-size: cover;
-    background-position: 50% 50%;
+  background-position: 50% 50%;
   background-repeat: no-repeat;
 }
 .pc-9 {
   background-image: url("https://wallpapers.com/images/hd/doctor-strange-lighting-rope-jbq1ss5dlttu7r3r.webp");
   background-size: cover;
-    background-position: 50% 50%;
+  background-position: 50% 50%;
   background-repeat: no-repeat;
 }
 .pc-10 {
   background-image: url("https://wallpapers.com/images/hd/iron-man-in-battle-j22bh9ek9g5j85ce.webp");
   background-size: cover;
-    background-position: 50% 50%;
+  background-position: 50% 50%;
   background-repeat: no-repeat;
 }
 .pc-11 {
   background-image: url("https://wallpapers.com/images/hd/focus-shot-the-hulk-hd-pbau3yg02prylbbv.webp");
   background-size: cover;
-    background-position: 50% 50%;
+  background-position: 50% 50%;
   background-repeat: no-repeat;
 }
 .pc-12 {
   background-image: url("https://wallpapers.com/images/hd/iron-man-abstract-art-huwkamij9o3d3mt6.webp");
   background-size: cover;
-    background-position: 50% 50%;
+  background-position: 50% 50%;
   background-repeat: no-repeat;
 }
