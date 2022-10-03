@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Draggable Canvas</title>
+    <link rel="stylesheet" href="./style.css">
+    <!-- xerome font -->
+    <link href="http://fonts.cdnfonts.com/css/xerome" rel="stylesheet">
+</head>
+
+<body>
+
+    <h1 class="title">
+        GALLERY
+    </h1>
+
+    <div class="container">
+
+        <div class="row">
+            <div class="projectCard pc-1"></div>
+            <div class="projectCard pc-2"></div>
+            <div class="projectCard pc-3"></div>
+            <div class="projectCard pc-4"></div>
+            <div class="projectCard pc-5"></div>
+            <div class="projectCard pc-6"></div>
+        </div>
+
+        <div class="row">
+            <div class="projectCard pc-7"></div>
+            <div class="projectCard pc-8"></div>
+            <div class="projectCard pc-9"></div>
+            <div class="projectCard pc-10"></div>
+            <div class="projectCard pc-11"></div>
+            <div class="projectCard pc-12"></div>
+        </div>
+
+        <div class="row">
+            <div class="projectCard pc-10"></div>
+            <div class="projectCard pc-11"></div>
+            <div class="projectCard pc-12"></div>
+            <div class="projectCard pc-1"></div>
+            <div class="projectCard pc-2"></div>
+            <div class="projectCard pc-3"></div>
+        </div>
+    </div>
+
+
+
+    <script src="https://unpkg.com/panzoom@8.7.3/dist/panzoom.min.js"></script>
+
+
+    <script>
+        var container = document.querySelector('.container');
+
+        panzoom(container, {
+            minZoom: 1,
+            maxZoom: 1
+        });
+
+
+    </script>
+
+</body>
+
+</html>
